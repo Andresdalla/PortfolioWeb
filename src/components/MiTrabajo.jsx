@@ -10,24 +10,23 @@ const MiTrabajo = () => {
                 <p className='py-6'>Mira los trabajos que hice paaaa</p>
             </div>
 
-            <div style={{backgroundImage: `url(${Logisim})`}} 
-            className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-                <div className='shadow-lg shadow-[#fffffda9] group container rounded-md
+            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+                <div style={{backgroundImage: `url(${Logisim})`}} className='shadow-lg shadow-[#fffffda9] group container rounded-md
                 flex justify-center items-center mx-auto content-div'>
                     {/* efecto hover */}
-                    <div>
-                        <span>
-
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold tracking-wider'>
+                            Juego en Logisim
                         </span>
-                        <div>
+                        <div className='pt-8 text-center'>
                             <a href="/">
-                                <button>
-
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white font-bold text-lg'>
+                                    Demo
                                 </button>
                             </a>
                             <a href="/">
-                                <button>
-
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white font-bold text-lg'>
+                                    Code
                                 </button>
                             </a>
                         </div>
