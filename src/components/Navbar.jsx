@@ -12,7 +12,9 @@ const Navbar = () => {
     items-center px-4 bg-[#fffffd]'>
             {/* logo */}
             <div>
-                <img className=" ml-0" src={Logo} alt="Imagen nombre" width={250} />
+                <Link to="home" smooth={true} duration={500}>
+                    <img className=" ml-0" src={Logo} alt="Imagen nombre" width={250} />
+                </Link>
             </div>
             {/*menu  */}
             <ul className='hidden md:flex text-[#209d5c] font-bold'>

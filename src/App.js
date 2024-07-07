@@ -3,7 +3,7 @@ import Home from "./components/Home";
 import SobreMi from "./components/SobreMi";
 import Skills from "./components/Skills";
 import MiTrabajo from "./components/MiTrabajo";
-import Contacto from "./components/Contacto"
+import Contacto from "./components/Contacto";
 
 function App() {
   return (
