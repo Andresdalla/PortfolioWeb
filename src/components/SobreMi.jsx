@@ -26,7 +26,7 @@ const SobreMi = () => {
           </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default SobreMi

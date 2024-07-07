@@ -1,5 +1,7 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
+import { Link } from 'react-scroll'
+
 const Home = () => {
   return (
     <div name='home' className='w-full h-screen bg-[#fffffd]'>
@@ -17,12 +19,14 @@ const Home = () => {
           y crecer en esta emocionante disciplina, contribuyendo con soluciones
           innovadoras y eficientes a los desafíos tecnológicos.</p>
         <div>
+        <Link to="trabajos" smooth={true} duration={500}>
           <button className='group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#209d5c] hover:border-[#209d5c]'>
             Ver proyectos 
             <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-2 mt-1' />
             </span>
           </button>
+        </Link>
         </div>
       </div>
     </div>

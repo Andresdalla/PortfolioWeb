@@ -12,9 +12,9 @@ import Bash from '../assets/skills/10.svg'
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-screen bg-[#fffffd]'>
+    <div name='skills' className='w-full h-screen bg-[#fffffd] 'style={{ marginBottom: '100px' }}>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-        <div>
+        <div >
           <p className='text-4xl font-bold inline border-b-4 border-[#209d5c]'>
             Skills</p>
           <p className='py-4'>Estas son las tecnologías con las que trabaje</p>
@@ -52,11 +52,10 @@ const Skills = () => {
             <img className='w-20 mx-auto' src={Docker} alt="icono HTML" />
             <p className='my-4'>Docker</p>
           </div>
-          
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Skills

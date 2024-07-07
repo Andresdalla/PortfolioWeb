@@ -4,7 +4,7 @@ import Logisim from '../assets/trabajos/logisim.png'
 const MiTrabajo = () => {
     return (
         <div name='trabajos' className='w-full md:h-screen bg-[#fffffd]'>
-            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+            <div className='max-w-[1000px] mx-auto p-4 px-8 flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-[#209d5c]'>Proyectos</p>
                     <p className='py-6'>Mira los trabajos que hice paaaa</p>
