@@ -11,13 +11,15 @@ function App() {
       <Navbar/>
       <Home/>
       <SobreMi/>
-      <div name='skills' className='w-full h-screen bg-[#fffffd]' style={{ marginBottom: '50px' }}>
+      <div name='skills' className='w-full h-screen bg-[#fffffd]' style={{ marginBottom: '200px' }}>
         <Skills/>
       </div>
-      <div name='trabajos' className='w-full md:h-screen bg-[#fffffd]' style={{ marginTop: '50px' }}>
+      <div name='trabajos' className='w-full md:h-screen bg-[#fffffd]' style={{ marginTop: '200px' }}>
         <MiTrabajo/>
       </div>
-      <Contacto/>
+      <div name='contacto' className='w-full md:h-screen bg-[#fffffd]' style={{ marginTop: '200px' }}>
+        <Contacto/>
+      </div>
     </div>
   );
 }
