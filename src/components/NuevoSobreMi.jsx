@@ -50,7 +50,7 @@ export function CanvasRevealEffectDemo3() {
                 [43,112,228], //AZUL
                 [233,179,0] //NARANJA AMARILLO
               ]}
-              opacities={[0.6, 0 , 0, 0, 0, 0, 0, 0, 0, 0]}
+              opacities={[0.6, 0 , 0.5, 0, 0, 0, 0, 0, 0, 0]}
             // OPACIDAD DE LOS PUNTOS: poner o 0 o 1
             //   opacities={[0.2, 0.2, 0.2, 0.2, 0.2, 0.4, 0.4, 0.4, 0.4, 1]}
               dotSize={7}
