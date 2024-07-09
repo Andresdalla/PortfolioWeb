@@ -2,7 +2,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 import { cn } from "./cn";
-import Image from "next/image";
 
 export const LayoutGrid = ({ cards }) => {
   const [selected, setSelected] = useState(null);
@@ -55,10 +54,8 @@ export const LayoutGrid = ({ cards }) => {
 const BlurImage = ({ card }) => {
   const [loaded, setLoaded] = useState(false);
   return (
-    <Image
+    <img
       src={card.thumbnail}
-      height="500"
-      width="500"
       onLoad={() => setLoaded(true)}
       className={cn(
         "object-cover object-top absolute inset-0 h-full w-full transition duration-200",
@@ -102,4 +99,4 @@ const SelectedCard = ({ selected }) => {
   );
 };
 
-export default LayoutGrid
+export default LayoutGrid;
