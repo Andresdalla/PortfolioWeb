@@ -9,7 +9,12 @@ import sorting from "../assets/trabajos/sorting.png";
 
 export function LayoutGridDemo() {
   return (
+    
     <div className="h-screen py-20 w-full">
+      <div className='ml-12 pb-8'>
+                    <p className='text-4xl font-bold inline border-b-4 border-[#209d5c]'>Proyectos</p>
+                    <p className='py-6'>Mira los trabajos que hice paaaa</p>
+      </div>
       <LayoutGrid cards={cards} />
     </div>
   );
