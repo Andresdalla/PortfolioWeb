@@ -5,7 +5,7 @@ import Skills from "./components/Skills";
 import MiTrabajo from "./components/MiTrabajo";
 import Contacto from "./components/Contacto"
 import NuevoSobreMi from './components/NuevoSobreMi';
-import NuevoMiTrabajo from './components/NuevoMiTrabajo';
+// import NuevoMiTrabajo from './components/NuevoMiTrabajo';
 function App() {
   return (
     <div>
@@ -17,8 +17,8 @@ function App() {
         <Skills/>
       </div>
       <div name='trabajos' className='w-full md:h-screen bg-[#fffffd]' style={{ marginTop: '200px' }}>
-        {/* <MiTrabajo/> */}
-        <NuevoMiTrabajo/>
+        <MiTrabajo/>
+        {/* <NuevoMiTrabajo/> */}
       </div>
       <div name='contacto' className='w-full md:h-screen bg-[#fffffd]' style={{ marginTop: '200px' }}>
         <Contacto/>
