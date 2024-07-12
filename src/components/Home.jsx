@@ -11,7 +11,7 @@ export function Home() {
          justify-center h-full'>
         <p>Hola, mi nombre es</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#209d5c]'>Andrés Dalla Rizza</h1>
-        <p className='text-3xl sm:text-7xl'>Soy desarrollador<FlipWords className={'text-4xl sm:text-7xl inline-block'} words={words}/> </p>
+        <p className='text-2xl sm:text-7xl'>Soy desarrollador<FlipWords className={'text-2xl font-bold  sm:text-7xl inline-block'} words={words}/></p>
         <p className='mt-6 mb-6'>¡Te invito a que mires mis proyectos!</p>
         <div>
           <Link to="trabajos" smooth={true} duration={500}>
