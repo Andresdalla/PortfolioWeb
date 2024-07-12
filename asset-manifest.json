@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortfolioWeb/static/css/main.71d92e13.css",
-    "main.js": "/PortfolioWeb/static/js/main.a9e5008e.js",
+    "main.css": "/PortfolioWeb/static/css/main.73488ab8.css",
+    "main.js": "/PortfolioWeb/static/js/main.418dca81.js",
     "static/media/circuito.jpg": "/PortfolioWeb/static/media/circuito.067ac621bd66cf43a994.jpg",
     "static/media/logo8.svg": "/PortfolioWeb/static/media/logo8.08213311178ebd55c1a07d42454d3d86.svg",
     "static/media/logisim.png": "/PortfolioWeb/static/media/logisim.fc8aa144226593f53bf0.png",
@@ -20,11 +20,11 @@
     "static/media/1.svg": "/PortfolioWeb/static/media/1.470093332ab645daf35c9373cff56091.svg",
     "static/media/10.svg": "/PortfolioWeb/static/media/10.5841c748493ad861f39ac573e6f90dd6.svg",
     "index.html": "/PortfolioWeb/index.html",
-    "main.71d92e13.css.map": "/PortfolioWeb/static/css/main.71d92e13.css.map",
-    "main.a9e5008e.js.map": "/PortfolioWeb/static/js/main.a9e5008e.js.map"
+    "main.73488ab8.css.map": "/PortfolioWeb/static/css/main.73488ab8.css.map",
+    "main.418dca81.js.map": "/PortfolioWeb/static/js/main.418dca81.js.map"
   },
   "entrypoints": [
-    "static/css/main.71d92e13.css",
-    "static/js/main.a9e5008e.js"
+    "static/css/main.73488ab8.css",
+    "static/js/main.418dca81.js"
   ]
 }
