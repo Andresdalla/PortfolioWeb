@@ -12,7 +12,7 @@ import Bash from '../assets/skills/10.svg'
 
 const Skills = () => {
   return (
-    <div className='w-full h-screen bg-[#fffffd] 'style={{ marginBottom: '100px' }}>
+    <div className='w-full h-screen bg-[#fffffd] mt-20 sm:mt-0'style={{ marginBottom: '100px' }}>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div >
           <p className='text-4xl font-bold inline border-b-4 border-[#209d5c]'>
