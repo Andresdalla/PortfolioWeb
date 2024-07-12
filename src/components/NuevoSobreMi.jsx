@@ -24,7 +24,7 @@ export function CanvasRevealEffectDemo3() {
               <p className='text-xl md:text-3xl relative z-20 font-bold'>Soy un estudiante de ingeniería en sistemas en la Universidad ORT de Uruguay. Actualmente tengo 21 años y me encuentro en el 5to semestre de la carrera.</p>
             </div>
             <div>
-              <p className="text-lg md:text-2xl font-bold relative">Soy un apasionado por la programación y la tecnología. Me especializo en áreas diversas como el análisis de datos, desarrollo de aplicaciones, y base de datos. Me encanta aprender cosas nuevas y siempre estoy en la búsqueda de nuevos desafíos.</p>
+              <p className="text-lg md:text-2xl font-bold relative z-20">Soy un apasionado por la programación y la tecnología. Me especializo en áreas diversas como el análisis de datos, desarrollo de aplicaciones web, y bases de datos. Estoy interesado en nuevos desafíos que me permitan crecer profesionalmente y aprender continuamente. </p>
             </div>
         </div>  
       </div>

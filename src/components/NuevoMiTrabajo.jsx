@@ -13,7 +13,7 @@ export function LayoutGridDemo() {
     <div className="h-screen py-20 w-full">
       <div className='ml-12 pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-[#209d5c]'>Proyectos</p>
-                    <p className='py-6'>Estos son algunos de mis proyectos</p>
+                    <p className='py-6'>Estos son algunos de mis proyectos.</p>
       </div>
       <LayoutGrid cards={cards} />
     </div>
@@ -23,7 +23,7 @@ export function LayoutGridDemo() {
 const SkeletonOne = () => {
   return (
     <div>
-      <p className="font-bold text-4xl text-white">Juego con logisim</p>
+      <p className="font-bold text-4xl text-white">Juego con Logisim</p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base mb-10 max-w-lg text-neutral-200">
         Juego hecho con logisim, un simulador de circuitos digitales.
@@ -66,7 +66,7 @@ const SkeletonThree = () => {
 const SkeletonFour = () => {
   return (
     <div>
-      <p className="font-bold text-4xl text-white">Aplicacion de visualizacion de sorting</p>
+      <p className="font-bold text-4xl text-white">Aplicación de visualizacion de sorting</p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-2 max-w-lg text-neutral-200">
         Aplicación de visualización de algoritmos de ordenamiento en c++ con librería SFML.
